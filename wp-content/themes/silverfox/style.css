@@ -1,0 +1,326 @@
+/*
+Theme Name: silverfox
+Theme URI:
+Author: SFX Estudio
+Author URI:
+Description: Sitio web oficial de Agencia creativa SFX Estudio
+Verson: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive, mobile first, creacion
+Text Domain: SFXEstudio 
+*/ 
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+} 
+
+img{
+    max-width:100%
+}
+
+div.logo{
+    text-align: center;
+    width: 50%;
+}
+
+
+@media only screen and (min-width:768px){
+    div.logo{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    div.logo {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px){
+    header.site-header.container{
+        position: relative;
+    }
+
+    .navigation-container{
+        position: absolute;
+        top: -20px;
+        left:0;
+    }
+}
+
+/* Menu Principal*/
+/* div.navigation-container {
+    display: none;
+}
+
+@media only screen and (min-width:768px) {
+    div.navigation-container {
+        display: block;
+    }
+} */
+
+div.main-menu ul {
+    list-style: none;
+}
+
+sr-text {
+    display: none;
+}
+
+div.main-menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+div.main-menu ul li a {
+    
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    color: #7A7A7A;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+div.main-menu ul li .separator{
+    color: #7A7A7A;
+}
+
+
+@media only screen and (min-width:768px){
+    div.navigation-container ul li {
+        display: table-cell;
+        width: 1%;
+    }
+}
+
+/* Menu Redes Sociales */
+
+nav.menu-networks ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+sr-text {
+    display: none;
+}
+
+nav.menu-networks ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav.menu-networks ul li a {
+    
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    color: #7A7A7A;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+nav.menu-networks ul li .separator{
+    color: #7A7A7A;
+}
+
+/* Menu Footer */
+
+nav.menu-more ul {
+    list-style: none;
+}
+
+sr-text {
+    display: none;
+}
+
+nav.menu-more ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav.menu-more ul li a {
+    
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    color: #7A7A7A;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+nav.menu-more ul li .separator{
+    color: #7A7A7A;
+}
+
+/* Responsive menu */
+@media only screen and (max-width: 767px){
+    .mobile-menu a{
+        height: 40px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .mobile-menu a{
+        display: none;
+    }
+}
+
+/* Contenido Templates */
+div.hero{
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+}
+
+div.hero .content-hero{
+    display: table-cell;
+    vertical-align: middle;
+    color:#ffffff;
+    position: relative;
+    width: 100vw;
+}
+
+div.about-us{
+    padding: 60px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+@media only screen and (min-width:768px){
+    div.about-us {
+        margin-top: -90px;
+    }
+}
+
+.content-pages p {
+    font-size: 18px;
+    line-height: 50px;
+}
+
+
+/* Cajas Nosotros */
+.information-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Page Inicio */
+div .work{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.sfx{
+    width: 24.5%;
+    position: relative;
+}
+
+.blog{
+    width: 24.5%;
+    position: relative;
+    
+}
+
+.leviton{
+    width: 49%;
+    height: 75%;
+    position: static;
+}
+
+.lavisa{
+    width:49%;
+    position: relative;
+}
+
+.ariza {
+    width: 24.5%;
+    position: relative;
+} 
+
+.digital {
+    width: 24.5%;
+    position: relative;
+}
+.my-tool {
+    width: 24.5%;
+    position: relative;
+} 
+ .portfolio{
+    width: 24.5%;
+    position: relative;
+}
+
+div.container-work{
+    position: relative;
+    overflow: hidden;
+}
+
+div.information{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #7afafa;
+}
+
+/* PORTAFOLIO */
+.our-jobs{
+    padding: 0 60px;
+}
+
+/* GRID */ 
+
+@media only screen and (min-width:768px){
+    .container-grid{
+        content: '';
+        display: block;
+        clear: both;    
+    }
+    [class*="columnas"]{
+        padding: 0;
+        float: left;
+    }
+    .columnas1-4{
+        width:24%;
+    }
+}
+
+/* BLOG */
+.title-entry h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+header{
+    position: relative;
+}
+
+
