@@ -12,7 +12,10 @@
         <!-- menu principal-->
     <header class="site-header">
         <nav class="site-menu">
-            <div class="main-menu">    
+            <div class="mobile-menu">
+                    <a href="#" class="mobile"> Menu </a>
+            </div>
+            <div class="main-menu">   
                 <div class="navigation-container">
                     <?php
                         $args = array(
@@ -26,11 +29,6 @@
 
                     ?>    
                 </div> 
-                <!-- 
-                <div class="mobile-menu">
-                    <a href="#" class="mobile"> <i class="far fa-bars" aria-hidden="true"></i> Menu </a>
-                </div> -->
-                
             </div>
     
         <!-- redes social -->

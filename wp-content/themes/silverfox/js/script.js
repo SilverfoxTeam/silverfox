@@ -5,7 +5,7 @@ $(document).ready(function(){
     
     //Ocultar y mostrar menu
     $('.mobile-menu a').on('click', function(){
-        $('div.navigation-container').toggle();
+        $('nav.main-menu').toggle();
     });
 
     //Reacción a dimensiones de la pantalla

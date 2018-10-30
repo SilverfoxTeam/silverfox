@@ -6,7 +6,7 @@ function silverfox_setup() {
    
 	add_image_size('nosotros', 125, 100, true);
 	
-	add_image_size('portfolio', 290, 400, true);
+	add_image_size('portfolio', 400, 460, true);
 
 	add_image_size('blog', 290, 290, true);
 

@@ -17,6 +17,8 @@ Text Domain: SFXEstudio
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 .text-center {
@@ -62,15 +64,15 @@ div.logo{
 }
 
 /* Menu Principal*/
-/* div.navigation-container {
+nav.main-menu {
     display: none;
 }
 
 @media only screen and (min-width:768px) {
-    div.navigation-container {
+    nav.main-menu{
         display: block;
     }
-} */
+}
 
 div.main-menu ul {
     list-style: none;
@@ -101,9 +103,10 @@ div.main-menu ul li .separator{
 
 
 @media only screen and (min-width:768px){
-    div.navigation-container ul li {
+    div.main-menu ul li {
         display: table-cell;
         width: 1%;
+
     }
 }
 
@@ -291,7 +294,7 @@ div.information{
 
 /* PORTAFOLIO */
 .our-jobs{
-    padding: 0 60px;
+    padding: 0  ;
 }
 
 /* GRID */ 
@@ -307,7 +310,7 @@ div.information{
         float: left;
     }
     .columnas1-4{
-        width:24%;
+        width:25%;
     }
 }
 
